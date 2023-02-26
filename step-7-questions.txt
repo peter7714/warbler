@@ -1,0 +1,11 @@
+How is the logged in user being kept track of?
+    it's being added to the session and its being added to the g object as 'user'
+
+What is Flask’s g object?
+    it's a gloabal flask object that is set up on the app context used for keeping track of useful data for the application 
+
+What is the purpose of add_user_to_g?
+    to keep track of the user across the application
+
+What does @app.before_request mean?
+    function called before every page request
